@@ -1,13 +1,19 @@
 const express =  require("express")
-const app = express()
 const bodyParser = require("body-parser")
 
+//settings database
+require('./database');
 
-const PORT =  process.env.PORT || 5002;
+//settings server
+const config = require('./server/config')
+const app = config(express());
 
-
+//middlewares
 app.use(bodyParser.json())
 
-const router = require('./router.js')
+//routes
+const router = require('./routes/router.js')
 app.use('/api', router)
-app.listen(PORT, () => console.log('sever listen on port' + PORT))
+
+//setting listen
+app.listen(app.get('PORT'), () => console.log('sever listen on port ' + app.get('PORT')))
