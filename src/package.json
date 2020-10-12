@@ -1,0 +1,23 @@
+{
+  "name": "smartmed",
+  "version": "1.0.0",
+  "description": "server for smatmed with mongodb",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/afelipe00/SmartMed.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/afelipe00/SmartMed/issues"
+  },
+  "homepage": "https://github.com/afelipe00/SmartMed#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "md5": "^2.3.0"
+  }
+}
