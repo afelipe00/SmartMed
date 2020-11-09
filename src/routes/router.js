@@ -1,18 +1,23 @@
-const { json } = require('body-parser')
 const express = require('express')
 const router = express.Router()
 const fs = require('fs')
 var md5 = require('md5')
 const { send } = require('process')
+const users = require('../controllers/user')
 
 //global variables
-let arrayUsers = []
-let user = {}
-let payload = {
-    message: null
-}
-loadUsers();
-//webservice create User
+
+//loadUsers();
+
+//webservice User
+router.get('/', users.index);
+
+router.post('/Login', users.login);
+
+router.post('/Signin', users.signin);
+
+router.post('/delete', users.delete);
+/*
 router.post('/UserReg', (req, res , next) =>{
     try{
         loadUsers();
@@ -112,6 +117,6 @@ function loadUsers(){
         }
     })
 }
-
+*/
 //modulo de exportacion al index
 module.exports = router;
