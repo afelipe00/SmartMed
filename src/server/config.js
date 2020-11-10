@@ -1,3 +1,4 @@
+const express = require('express');
 const bodyParser = require("body-parser")
 
 module.exports = app =>{
@@ -12,5 +13,8 @@ module.exports = app =>{
     const router = require('../routes/router.js')
     app.use('/api', router)
 
+    //Static file
+    app.use(express.static(process.cwd() + '/public'))
+    
     return app;
 }
