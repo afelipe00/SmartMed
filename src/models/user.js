@@ -9,7 +9,7 @@ const UserSchema = new Schema({
     mobile: {type: Number},
     country: {type: String},
     password: {type: String},
-    History: {type: Object},
+    history: {type: Object},
     rol: {type: String}
 })
 

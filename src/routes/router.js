@@ -1,22 +1,23 @@
 const express = require('express')
 const router = express.Router()
 const fs = require('fs')
-var md5 = require('md5')
 const { send } = require('process')
-const users = require('../controllers/user')
+const user = require('../controllers/user')
 
 //global variables
 
-//loadUsers();
-
 //webservice User
-router.get('/', users.index);
+router.post('/Login', user.login);
 
-router.post('/Login', users.login);
+router.post('/Signin', user.signin);
 
-router.post('/Signin', users.signin);
+router.delete('/delete/:id', user.delete);
 
-router.post('/delete', users.delete);
+router.put('/edit/:id',user.edit);
+
+//webservice Home
+
+
 /*
 router.post('/UserReg', (req, res , next) =>{
     try{
@@ -118,5 +119,6 @@ function loadUsers(){
     })
 }
 */
+
 //modulo de exportacion al index
 module.exports = router;
