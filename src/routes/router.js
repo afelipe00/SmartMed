@@ -10,7 +10,6 @@ const users = require('../controllers/user')
 //loadUsers();
 
 //webservice User
-router.get('/', users.index);
 
 router.post('/Login', users.login);
 

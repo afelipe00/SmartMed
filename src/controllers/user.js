@@ -8,7 +8,7 @@ let payload = {
 };
 
 user.login = (req, res, next ) =>{
-    res.send('login')
+    res.send('login prueeba')
 };
 
 user.signin = (req, res , next) =>{
