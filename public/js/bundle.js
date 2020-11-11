@@ -47,7 +47,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n//\n//\n//\n//\n//\n//\n//\n/
 /*! runtime requirements: __webpack_require__, __webpack_require__.r, __webpack_exports__, __webpack_require__.* */
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! vue */ \"./node_modules/vue/dist/vue.runtime.esm.js\");\n/* harmony import */ var _App_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./App.vue */ \"./src/app/App.vue\");\n;\n\nvue__WEBPACK_IMPORTED_MODULE_1__.default.config.productionTip = false;\nnew vue__WEBPACK_IMPORTED_MODULE_1__.default({\n  render: function render(h) {\n    return h(_App_vue__WEBPACK_IMPORTED_MODULE_0__.default);\n  }\n}).$mount('#app');\nalert('vuejs  lajdsflkjasdf goes here');\n\n//# sourceURL=webpack://smartmed/./src/app/main.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! vue */ \"./node_modules/vue/dist/vue.runtime.esm.js\");\n/* harmony import */ var _App_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./App.vue */ \"./src/app/App.vue\");\n;\n\nvue__WEBPACK_IMPORTED_MODULE_1__.default.config.productionTip = false;\nnew vue__WEBPACK_IMPORTED_MODULE_1__.default({\n  render: function render(h) {\n    return h(_App_vue__WEBPACK_IMPORTED_MODULE_0__.default);\n  }\n}).$mount('#app');\nalert('Acepta las coooockiiies! 😏');\n\n//# sourceURL=webpack://smartmed/./src/app/main.js?");
 
 /***/ }),
 
