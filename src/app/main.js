@@ -8,4 +8,4 @@ new Vue ({
     render: h => h(App)
 }).$mount('#app');
 
-alert('vuejs  lajdsflkjasdf goes here')
+alert('Acepta las coooockiiies! 😏')
