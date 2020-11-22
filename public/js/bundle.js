@@ -20,7 +20,21 @@
 /*! runtime requirements: __webpack_require__, __webpack_exports__, __webpack_require__.r, __webpack_require__.* */
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _components_Users_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../components/Users.vue */ \"./src/components/Users.vue\");\n//\n//\n//\n//\n//\n//\n;\n/* harmony default export */ __webpack_exports__[\"default\"] = ({\n  name: 'App',\n  components: {\n    Users: _components_Users_vue__WEBPACK_IMPORTED_MODULE_0__.default\n  }\n});\n\n//# sourceURL=webpack://smartmed/./src/app/App.vue?./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js??vue-loader-options");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _components_Users_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../components/Users.vue */ \"./src/components/Users.vue\");\n/* harmony import */ var _components_Home_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Home.vue */ \"./src/components/Home.vue\");\n//\n//\n//\n//\n//\n//\n//\n;\n\n/* harmony default export */ __webpack_exports__[\"default\"] = ({\n  name: 'App',\n  components: {\n    Home: _components_Home_vue__WEBPACK_IMPORTED_MODULE_1__.default\n  }\n});\n\n//# sourceURL=webpack://smartmed/./src/app/App.vue?./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js??vue-loader-options");
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js??vue-loader-options!./src/components/Home.vue?vue&type=script&lang=js&":
+/*!**************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js??vue-loader-options!./src/components/Home.vue?vue&type=script&lang=js& ***!
+  \**************************************************************************************************************************************************************/
+/*! namespace exports */
+/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
+/*! other exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_exports__, __webpack_require__.r, __webpack_require__.* */
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+eval("__webpack_require__.r(__webpack_exports__);\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n/* harmony default export */ __webpack_exports__[\"default\"] = ({\n  name: 'Users'\n});\n\n//# sourceURL=webpack://smartmed/./src/components/Home.vue?./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js??vue-loader-options");
 
 /***/ }),
 
@@ -47,7 +61,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n//\n//\n//\n//\n//\n//\n//\n/
 /*! runtime requirements: __webpack_require__, __webpack_require__.r, __webpack_exports__, __webpack_require__.* */
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! vue */ \"./node_modules/vue/dist/vue.runtime.esm.js\");\n/* harmony import */ var _App_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./App.vue */ \"./src/app/App.vue\");\n;\n\nvue__WEBPACK_IMPORTED_MODULE_1__.default.config.productionTip = false;\nnew vue__WEBPACK_IMPORTED_MODULE_1__.default({\n  render: function render(h) {\n    return h(_App_vue__WEBPACK_IMPORTED_MODULE_0__.default);\n  }\n}).$mount('#app');\nalert('Acepta las coooockiiies! 😏');\n\n//# sourceURL=webpack://smartmed/./src/app/main.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! vue */ \"./node_modules/vue/dist/vue.runtime.esm.js\");\n/* harmony import */ var _App_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./App.vue */ \"./src/app/App.vue\");\n;\n\nvue__WEBPACK_IMPORTED_MODULE_1__.default.config.productionTip = false;\nnew vue__WEBPACK_IMPORTED_MODULE_1__.default({\n  render: function render(h) {\n    return h(_App_vue__WEBPACK_IMPORTED_MODULE_0__.default);\n  }\n}).$mount('#app');\n\n//# sourceURL=webpack://smartmed/./src/app/main.js?");
 
 /***/ }),
 
@@ -61,6 +75,19 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var vue_
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://smartmed/./src/app/App.vue?./node_modules/mini-css-extract-plugin/dist/loader.js!./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/vue-loader/lib/index.js??vue-loader-options");
+
+/***/ }),
+
+/***/ "./node_modules/mini-css-extract-plugin/dist/loader.js!./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/vue-loader/lib/index.js??vue-loader-options!./src/components/Home.vue?vue&type=style&index=0&lang=css&":
+/*!**********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/mini-css-extract-plugin/dist/loader.js!./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/vue-loader/lib/index.js??vue-loader-options!./src/components/Home.vue?vue&type=style&index=0&lang=css& ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************/
+/*! namespace exports */
+/*! exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_require__.r, __webpack_exports__, __webpack_require__.* */
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://smartmed/./src/components/Home.vue?./node_modules/mini-css-extract-plugin/dist/loader.js!./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/vue-loader/lib/index.js??vue-loader-options");
 
 /***/ }),
 
@@ -88,6 +115,20 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _App_vue_vue_type_template_id_7e7f006c___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./App.vue?vue&type=template&id=7e7f006c& */ \"./src/app/App.vue?vue&type=template&id=7e7f006c&\");\n/* harmony import */ var _App_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./App.vue?vue&type=script&lang=js& */ \"./src/app/App.vue?vue&type=script&lang=js&\");\n/* harmony import */ var _App_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./App.vue?vue&type=style&index=0&lang=css& */ \"./src/app/App.vue?vue&type=style&index=0&lang=css&\");\n/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ \"./node_modules/vue-loader/lib/runtime/componentNormalizer.js\");\n;\n\n\n;\n\n\n/* normalize component */\n\nvar component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__.default)(\n  _App_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__.default,\n  _App_vue_vue_type_template_id_7e7f006c___WEBPACK_IMPORTED_MODULE_0__.render,\n  _App_vue_vue_type_template_id_7e7f006c___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,\n  false,\n  null,\n  null,\n  null\n  \n)\n\n/* hot reload */\nif (false) { var api; }\ncomponent.options.__file = \"src/app/App.vue\"\n/* harmony default export */ __webpack_exports__[\"default\"] = (component.exports);\n\n//# sourceURL=webpack://smartmed/./src/app/App.vue?");
+
+/***/ }),
+
+/***/ "./src/components/Home.vue":
+/*!*********************************!*\
+  !*** ./src/components/Home.vue ***!
+  \*********************************/
+/*! namespace exports */
+/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
+/*! other exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_require__, __webpack_exports__, __webpack_require__.r, __webpack_require__.* */
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _Home_vue_vue_type_template_id_8dc7cce2___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Home.vue?vue&type=template&id=8dc7cce2& */ \"./src/components/Home.vue?vue&type=template&id=8dc7cce2&\");\n/* harmony import */ var _Home_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Home.vue?vue&type=script&lang=js& */ \"./src/components/Home.vue?vue&type=script&lang=js&\");\n/* harmony import */ var _Home_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Home.vue?vue&type=style&index=0&lang=css& */ \"./src/components/Home.vue?vue&type=style&index=0&lang=css&\");\n/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ \"./node_modules/vue-loader/lib/runtime/componentNormalizer.js\");\n;\n\n\n;\n\n\n/* normalize component */\n\nvar component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__.default)(\n  _Home_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__.default,\n  _Home_vue_vue_type_template_id_8dc7cce2___WEBPACK_IMPORTED_MODULE_0__.render,\n  _Home_vue_vue_type_template_id_8dc7cce2___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,\n  false,\n  null,\n  null,\n  null\n  \n)\n\n/* hot reload */\nif (false) { var api; }\ncomponent.options.__file = \"src/components/Home.vue\"\n/* harmony default export */ __webpack_exports__[\"default\"] = (component.exports);\n\n//# sourceURL=webpack://smartmed/./src/components/Home.vue?");
 
 /***/ }),
 
@@ -119,6 +160,20 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _nod
 
 /***/ }),
 
+/***/ "./src/components/Home.vue?vue&type=script&lang=js&":
+/*!**********************************************************!*\
+  !*** ./src/components/Home.vue?vue&type=script&lang=js& ***!
+  \**********************************************************/
+/*! namespace exports */
+/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
+/*! other exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_require__, __webpack_exports__, __webpack_require__.r, __webpack_require__.* */
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _node_modules_babel_loader_lib_index_js_node_modules_vue_loader_lib_index_js_vue_loader_options_Home_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../node_modules/babel-loader/lib/index.js!../../node_modules/vue-loader/lib/index.js??vue-loader-options!./Home.vue?vue&type=script&lang=js& */ \"./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js??vue-loader-options!./src/components/Home.vue?vue&type=script&lang=js&\");\n; /* harmony default export */ __webpack_exports__[\"default\"] = (_node_modules_babel_loader_lib_index_js_node_modules_vue_loader_lib_index_js_vue_loader_options_Home_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__.default); \n\n//# sourceURL=webpack://smartmed/./src/components/Home.vue?");
+
+/***/ }),
+
 /***/ "./src/components/Users.vue?vue&type=script&lang=js&":
 /*!***********************************************************!*\
   !*** ./src/components/Users.vue?vue&type=script&lang=js& ***!
@@ -143,6 +198,19 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _nod
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_node_modules_css_loader_dist_cjs_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_vue_loader_lib_index_js_vue_loader_options_App_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../node_modules/mini-css-extract-plugin/dist/loader.js!../../node_modules/css-loader/dist/cjs.js!../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../node_modules/vue-loader/lib/index.js??vue-loader-options!./App.vue?vue&type=style&index=0&lang=css& */ \"./node_modules/mini-css-extract-plugin/dist/loader.js!./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/vue-loader/lib/index.js??vue-loader-options!./src/app/App.vue?vue&type=style&index=0&lang=css&\");\n\n\n//# sourceURL=webpack://smartmed/./src/app/App.vue?");
+
+/***/ }),
+
+/***/ "./src/components/Home.vue?vue&type=style&index=0&lang=css&":
+/*!******************************************************************!*\
+  !*** ./src/components/Home.vue?vue&type=style&index=0&lang=css& ***!
+  \******************************************************************/
+/*! namespace exports */
+/*! exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_require__, __webpack_require__.r, __webpack_exports__, __webpack_require__.* */
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_node_modules_css_loader_dist_cjs_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_vue_loader_lib_index_js_vue_loader_options_Home_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../node_modules/mini-css-extract-plugin/dist/loader.js!../../node_modules/css-loader/dist/cjs.js!../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../node_modules/vue-loader/lib/index.js??vue-loader-options!./Home.vue?vue&type=style&index=0&lang=css& */ \"./node_modules/mini-css-extract-plugin/dist/loader.js!./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/vue-loader/lib/index.js??vue-loader-options!./src/components/Home.vue?vue&type=style&index=0&lang=css&\");\n\n\n//# sourceURL=webpack://smartmed/./src/components/Home.vue?");
 
 /***/ }),
 
@@ -174,6 +242,21 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 /***/ }),
 
+/***/ "./src/components/Home.vue?vue&type=template&id=8dc7cce2&":
+/*!****************************************************************!*\
+  !*** ./src/components/Home.vue?vue&type=template&id=8dc7cce2& ***!
+  \****************************************************************/
+/*! namespace exports */
+/*! export render [provided] [no usage info] [missing usage info prevents renaming] -> ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./src/components/Home.vue?vue&type=template&id=8dc7cce2& .render */
+/*! export staticRenderFns [provided] [no usage info] [missing usage info prevents renaming] -> ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./src/components/Home.vue?vue&type=template&id=8dc7cce2& .staticRenderFns */
+/*! other exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_require__, __webpack_exports__, __webpack_require__.d, __webpack_require__.r, __webpack_require__.* */
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"render\": function() { return /* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Home_vue_vue_type_template_id_8dc7cce2___WEBPACK_IMPORTED_MODULE_0__.render; },\n/* harmony export */   \"staticRenderFns\": function() { return /* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Home_vue_vue_type_template_id_8dc7cce2___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns; }\n/* harmony export */ });\n/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Home_vue_vue_type_template_id_8dc7cce2___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../node_modules/vue-loader/lib/index.js??vue-loader-options!./Home.vue?vue&type=template&id=8dc7cce2& */ \"./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./src/components/Home.vue?vue&type=template&id=8dc7cce2&\");\n\n\n//# sourceURL=webpack://smartmed/./src/components/Home.vue?");
+
+/***/ }),
+
 /***/ "./src/components/Users.vue?vue&type=template&id=040e3608&":
 /*!*****************************************************************!*\
   !*** ./src/components/Users.vue?vue&type=template&id=040e3608& ***!
@@ -200,7 +283,22 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /*! runtime requirements: __webpack_require__.r, __webpack_exports__, __webpack_require__.d, __webpack_require__.* */
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"render\": function() { return /* binding */ render; },\n/* harmony export */   \"staticRenderFns\": function() { return /* binding */ staticRenderFns; }\n/* harmony export */ });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\"div\", { attrs: { id: \"app\" } }, [_c(\"Users\")], 1)\n}\nvar staticRenderFns = []\nrender._withStripped = true\n\n\n\n//# sourceURL=webpack://smartmed/./src/app/App.vue?./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"render\": function() { return /* binding */ render; },\n/* harmony export */   \"staticRenderFns\": function() { return /* binding */ staticRenderFns; }\n/* harmony export */ });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\"div\", { attrs: { id: \"app\" } }, [_c(\"Home\")], 1)\n}\nvar staticRenderFns = []\nrender._withStripped = true\n\n\n\n//# sourceURL=webpack://smartmed/./src/app/App.vue?./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options");
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./src/components/Home.vue?vue&type=template&id=8dc7cce2&":
+/*!*******************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./src/components/Home.vue?vue&type=template&id=8dc7cce2& ***!
+  \*******************************************************************************************************************************************************************************************************/
+/*! namespace exports */
+/*! export render [provided] [no usage info] [missing usage info prevents renaming] */
+/*! export staticRenderFns [provided] [no usage info] [missing usage info prevents renaming] */
+/*! other exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_require__.r, __webpack_exports__, __webpack_require__.d, __webpack_require__.* */
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"render\": function() { return /* binding */ render; },\n/* harmony export */   \"staticRenderFns\": function() { return /* binding */ staticRenderFns; }\n/* harmony export */ });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _vm._m(0)\n}\nvar staticRenderFns = [\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\"div\", [\n      _c(\"div\", [\n        _c(\n          \"nav\",\n          { staticClass: \"navbar navbar-expand-lg navbar-dark bg-dark\" },\n          [\n            _c(\"a\", { staticClass: \"navbar-brand\", attrs: { href: \"#\" } }),\n            _vm._v(\" \"),\n            _c(\"a\", { staticClass: \"navbar-brand\", attrs: { href: \"/\" } }, [\n              _vm._v(\"SmartMed\")\n            ]),\n            _vm._v(\" \"),\n            _c(\"button\", {\n              staticClass: \"navbar-toggler\",\n              attrs: {\n                type: \"button\",\n                \"data-toggle\": \"collapse\",\n                \"data-target\": \"#navbar-supportedContent\",\n                \"aria-expanded\": \"false\",\n                \"aria-label\": \"Toggle navigation\"\n              }\n            }),\n            _vm._v(\" \"),\n            _c(\n              \"div\",\n              {\n                staticClass: \"collapse navbar-collapse\",\n                attrs: { id: \"navbarSupportedContent\" }\n              },\n              [\n                _c(\"ul\", { staticClass: \"navbar-nav mr-auto\" }, [\n                  _c(\"li\", { staticClass: \"nav-item active\" }, [\n                    _c(\"a\", { staticClass: \"nav-link\", attrs: { href: \"/\" } }, [\n                      _vm._v(\"Home \"),\n                      _c(\"span\", { staticClass: \"sr-only\" }, [\n                        _vm._v(\"(current)\")\n                      ])\n                    ])\n                  ]),\n                  _vm._v(\" \"),\n                  _c(\"li\", { staticClass: \"nav-item\" }, [\n                    _c(\"a\", { staticClass: \"nav-link\", attrs: { href: \"/\" } }, [\n                      _vm._v(\"Page\")\n                    ])\n                  ])\n                ]),\n                _vm._v(\" \"),\n                _c(\"form\", { staticClass: \"form-inline my-2 my-lg-0\" }, [\n                  _c(\"input\", {\n                    staticClass: \"form-control mr-sm-2\",\n                    attrs: {\n                      type: \"search\",\n                      placeholder: \"Search\",\n                      \"aria-label\": \"Search\"\n                    }\n                  }),\n                  _vm._v(\" \"),\n                  _c(\n                    \"button\",\n                    {\n                      staticClass: \"btn btn-outline-success my-2 my-sm-0\",\n                      attrs: { type: \"submit\" }\n                    },\n                    [_vm._v(\"Search\")]\n                  )\n                ])\n              ]\n            )\n          ]\n        )\n      ]),\n      _vm._v(\" \"),\n      _c(\"div\", [\n        _c(\"h1\", [_vm._v(\"imagenes\")]),\n        _vm._v(\" \"),\n        _c(\n          \"div\",\n          {\n            staticClass: \"carousel slide\",\n            attrs: { id: \"carouselExampleIndicators\", \"data-ride\": \"carousel\" }\n          },\n          [\n            _c(\"ol\", { staticClass: \"carousel-indicators\" }, [\n              _c(\"li\", {\n                staticClass: \"active\",\n                attrs: {\n                  \"data-target\": \"#carouselExampleIndicators\",\n                  \"data-slide-to\": \"0\"\n                }\n              }),\n              _vm._v(\" \"),\n              _c(\"li\", {\n                attrs: {\n                  \"data-target\": \"#carouselExampleIndicators\",\n                  \"data-slide-to\": \"1\"\n                }\n              }),\n              _vm._v(\" \"),\n              _c(\"li\", {\n                attrs: {\n                  \"data-target\": \"#carouselExampleIndicators\",\n                  \"data-slide-to\": \"2\"\n                }\n              })\n            ]),\n            _vm._v(\" \"),\n            _c(\"div\", { staticClass: \"carousel-inner\" }, [\n              _c(\"div\", { staticClass: \"card\" }, [\n                _c(\"div\", { staticClass: \"carousel-item active\" }, [\n                  _c(\"img\", {\n                    staticClass: \"d-block w-100\",\n                    attrs: {\n                      src: \"s3://smartmed/images/CABECERA-2.jpg\",\n                      alt: \"\"\n                    }\n                  })\n                ])\n              ]),\n              _vm._v(\" \"),\n              _c(\"div\", { staticClass: \"carousel-item\" }, [\n                _c(\"img\", {\n                  staticClass: \"d-block w-100\",\n                  attrs: { src: \"\", alt: \"\" }\n                })\n              ]),\n              _vm._v(\" \"),\n              _c(\"div\", { staticClass: \"carousel-item\" }, [\n                _c(\"img\", {\n                  staticClass: \"d-block w-100\",\n                  attrs: { src: \"\", alt: \"\" }\n                })\n              ])\n            ]),\n            _vm._v(\" \"),\n            _c(\n              \"a\",\n              {\n                staticClass: \"carousel-control-prev\",\n                attrs: {\n                  href: \"#carouselExampleIndicators\",\n                  role: \"button\",\n                  \"data-slide\": \"prev\"\n                }\n              },\n              [\n                _c(\"span\", {\n                  staticClass: \"carousel-control-prev-icon\",\n                  attrs: { \"aria-hidden\": \"true\" }\n                }),\n                _vm._v(\" \"),\n                _c(\"span\", { staticClass: \"sr-only\" }, [_vm._v(\"Previous\")])\n              ]\n            ),\n            _vm._v(\" \"),\n            _c(\n              \"a\",\n              {\n                staticClass: \"carousel-control-next\",\n                attrs: {\n                  href: \"#carouselExampleIndicators\",\n                  role: \"button\",\n                  \"data-slide\": \"next\"\n                }\n              },\n              [\n                _c(\"span\", {\n                  staticClass: \"carousel-control-next-icon\",\n                  attrs: { \"aria-hidden\": \"true\" }\n                }),\n                _vm._v(\" \"),\n                _c(\"span\", { staticClass: \"sr-only\" }, [_vm._v(\"Next\")])\n              ]\n            )\n          ]\n        )\n      ])\n    ])\n  }\n]\nrender._withStripped = true\n\n\n\n//# sourceURL=webpack://smartmed/./src/components/Home.vue?./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options");
 
 /***/ }),
 

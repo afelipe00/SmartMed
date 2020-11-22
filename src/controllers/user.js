@@ -10,21 +10,28 @@ let payload = {
 
 user.login = async (req, res, next ) =>{
     res.send('login')
-    const pr = await scModel.User.find();
+    const pr = await scModel.User.find({"username": req.body.username});
     console.log(pr);
 };
 
 user.signin = async (req, res , next) =>{
     var datosUser = req.body;
     try{
-        if(hlpUser.SamePass(req.body.password, req.body.rppassword)){
-            datosUser.password = md5(datosUser.password);
-            const newUser = new scModel.User(datosUser)
-            await newUser.save()
-            payload.message = 'User saved';
-            res.send(payload)
+        var bandUser = await hlpUser.UserExist(req.body.username)
+        console.log(bandUser)
+        if (bandUser != true){
+            if(hlpUser.SamePass(req.body.password, req.body.rppassword)){
+                datosUser.password = md5(datosUser.password);
+                const newUser = new scModel.User(datosUser)
+                await newUser.save()
+                payload.message = 'User saved';
+                res.send(payload)
+            }else{
+                payload.message = 'Contrasennas no similares';
+                res.send(payload)
+            }
         }else{
-            payload.message = 'Contrasennas no similares';
+            payload.message = 'username existente';
             res.send(payload)
         }
     }catch(err){
