@@ -5,5 +5,8 @@ module.exports = {
     twitter: {
         Psssecret: '',
         idsecret: ''
-    }
+    },
+    TOKEN_SECRET: {
+        code: process.env.TOKEN_SECRET ||  "SmartmedSecret"
+    } 
 }

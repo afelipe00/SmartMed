@@ -1,4 +1,6 @@
+/* eslint-disable no-undef */
 const scModel = require('../models/index');
+
 //global variables
 hlpUser = {}
 
@@ -17,11 +19,6 @@ hlpUser.UserExist = (username) => {
         return false
     }
 }
-
-
-
-
-
 
 //module export
 module.exports = hlpUser;
