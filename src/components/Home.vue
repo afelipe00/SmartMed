@@ -3,7 +3,7 @@
         <div>
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
                 <a class="navbar-brand" href="#">
-                    <!--img src="/public/logo.png" width="30" height="30" alt="" loading="lazy"-->
+                    <img src="../assets/logo.png"  width="30" height="30" alt="" loading="lazy">                    
                 </a>
                 <a href="/" class="navbar-brand">SmartMed</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-supportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,7 +35,7 @@
                 <div class="carousel-inner">
                     <div class="card">
                         <div class="carousel-item active">
-                        <img src="s3://smartmed/images/CABECERA-2.jpg" class="d-block w-100" alt="">
+                        <img src="" class="d-block w-100" alt="">
                     </div>
                 </div>
                     <div class="carousel-item">
@@ -59,9 +59,14 @@
 </template>
 
 <script>
-
+import img from '../assets/logo.png' 
 export default {
     name: 'Users',
+    data: function(){
+        return {
+            image: img
+        }
+    }
 }
 
 </script>
@@ -75,3 +80,4 @@ export default {
         color: dodgerblue; 
     }
 </style>
+

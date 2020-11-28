@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import Users from '../components/Users.vue'
+//import Users from '../components/Users.vue'
 import Home from '../components/Home.vue' 
 export default {
   name: 'App',

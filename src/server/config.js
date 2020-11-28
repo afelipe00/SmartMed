@@ -1,5 +1,6 @@
 const express = require('express');
 const bodyParser = require("body-parser");
+const morgan = require('morgan');
 
 
 module.exports = app =>{
@@ -9,7 +10,7 @@ module.exports = app =>{
     app.set('PORT', process.env.PORT || 5002)
 
     //middlewares
-    
+    app.use(morgan('dev'))
 
     //routes (inician rutas del servidor API REST)
     const router = require('../routes/router.js')
