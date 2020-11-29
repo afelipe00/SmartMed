@@ -49,10 +49,17 @@
                     <div class="col-sm-12">
                         <div class="row mt-5 shadow-sm mb-5 align-items-center bg-light border hover">
                             <div class="col-sm-6 p-0">
-                                <h2>texto</h2>
+                                <a href="/">
+                                    <img src="../assets/logo.jpg" alt="productos 1" loading="lazy" class="img-fluid">
+                                </a>
                             </div>
                             <div class="col-sm-6">
-                                <h2>texto</h2>
+                                <h3>
+                                    <a href="/" title="prueba">Texto titulo</a>
+                                </h3>
+                                <p>
+                                    este va a ser el parrafo del texto contenido
+                                </p>
                             </div>
                         </div>
                     </div>
